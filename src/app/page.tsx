@@ -330,7 +330,7 @@ export default function Home() {
                   className="inline-block text-sm font-semibold transition-opacity hover:opacity-75"
                   style={{ color: OFF_WHITE }}
                 >
-                  Read the research →
+                  Read the article →
                 </a>
                 <a
                   href="mailto:hello@impossiblegoals.club"
@@ -432,7 +432,7 @@ export default function Home() {
               className="text-sm font-semibold hover:opacity-60 transition-opacity"
               style={{ color: "#141414" }}
             >
-              Read the research →
+              Read the article →
             </a>
           </div>
           <div className="border-t pt-8" style={{ borderColor: "#d0d0cc" }}>
