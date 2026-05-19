@@ -350,41 +350,32 @@ export default function Home() {
         className="py-28 px-6"
         style={{ backgroundColor: DARK_ALT, borderTop: `1px solid ${RULE}` }}
       >
-        <div className="mx-auto max-w-3xl">
+        <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs mb-10" style={{ ...MONO, color: MUTED }}>
             THE INVITATION
           </p>
 
           <blockquote
-            className="text-3xl md:text-4xl lg:text-5xl leading-snug mb-14"
+            className="text-3xl md:text-4xl lg:text-5xl leading-snug mb-8"
             style={{ ...DISPLAY, color: OFF_WHITE, fontStyle: "italic" }}
           >
-            &ldquo;What&apos;s the goal you&apos;ve been avoiding, the one
-            that requires you to become someone different?&rdquo;
+            What&apos;s the goal you&apos;ve been avoiding, the one that
+            requires you to become someone different?
           </blockquote>
 
-          <div
-            className="space-y-3 mb-12 text-sm"
+          <p
+            className="text-base md:text-lg mb-12"
             style={{ color: MUTED }}
           >
-            {[
-              "Structured AI coaching, not a chatbot",
-              "Goal, map, and experiments saved across sessions",
-              "No streaks, no gamification",
-            ].map((item) => (
-              <div key={item} className="flex items-start gap-3">
-                <span style={{ color: OFF_WHITE, opacity: 0.4 }}>·</span>
-                <span>{item}</span>
-              </div>
-            ))}
-          </div>
+            That&apos;s where we begin.
+          </p>
 
           <a
             href="https://app.impossiblegoals.club/"
             className="inline-block px-7 py-3.5 rounded-full text-sm font-semibold transition-opacity hover:opacity-85"
             style={{ backgroundColor: OFF_WHITE, color: DARK }}
           >
-            Start with an impossible goal
+            Start with an impossible goal →
           </a>
         </div>
       </section>
