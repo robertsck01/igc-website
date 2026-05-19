@@ -5,8 +5,17 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  color: #141414;
-  background: #f9fafb;
+  font-family: "DM Sans", sans-serif;
+  color: #f0f0ec;
+  background: #0d1117;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-mono-label {
+  font-family: "DM Mono", monospace;
 }

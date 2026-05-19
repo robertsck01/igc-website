@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Impossible Goals Club — Upgrading the human operating system",
   description:
-    "A structured methodology for second-order change, using the pursuit of impossible goals as the mechanism for growth that transforms both what you achieve and who you become.",
+    "A collective upgrading the human operating system, one impossible goal at a time. The systems that got us here cannot carry us through what's next.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=DM+Mono:wght@300;400;500&display=swap"
           rel="stylesheet"
         />
       </head>
