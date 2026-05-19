@@ -33,7 +33,7 @@ export default function Research() {
       {/* Article header */}
       <header className="px-6 pt-20 pb-14" style={{ borderBottom: `1px solid ${RULE}` }}>
         <div className="mx-auto max-w-3xl">
-          <p className="text-xs mb-8" style={{ ...MONO, color: MUTED }}>RESEARCH</p>
+          <p className="text-xs mb-8" style={{ ...MONO, color: MUTED }}>WRITING</p>
           <h1
             className="text-4xl md:text-5xl lg:text-6xl leading-tight mb-8"
             style={{ ...DISPLAY, color: OFF_WHITE }}
