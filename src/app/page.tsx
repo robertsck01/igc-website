@@ -65,7 +65,6 @@ export default function Home() {
         style={{ backgroundColor: DARK }}
       >
         <div className="mx-auto max-w-4xl w-full">
-          {/* Eyebrow */}
           <p
             className="text-xs mb-10"
             style={{ ...MONO, color: MUTED }}
@@ -73,7 +72,6 @@ export default function Home() {
             THE EXPONENTIAL AGE NEEDS IMPOSSIBLE CATALYSTS
           </p>
 
-          {/* H1 */}
           <h1
             className="text-5xl md:text-6xl lg:text-7xl leading-tight mb-8"
             style={{ ...DISPLAY, color: OFF_WHITE }}
@@ -85,7 +83,6 @@ export default function Home() {
             <em>For us, it&apos;s the destination.</em>
           </h1>
 
-          {/* Subhead */}
           <p
             className="text-lg md:text-xl max-w-2xl leading-relaxed mb-12"
             style={{ color: MUTED }}
@@ -95,7 +92,6 @@ export default function Home() {
             what&apos;s next. We&apos;re building the people who can.
           </p>
 
-          {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-start gap-5">
             <a
               href="https://app.impossiblegoals.club/"
@@ -115,7 +111,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── WHY THIS, WHY NOW ─── */}
+      {/* ─── WHY NOW ─── */}
       <section
         id="why"
         className="py-28 px-6"
@@ -125,27 +121,20 @@ export default function Home() {
           <p className="text-xs mb-10" style={{ ...MONO, color: MUTED }}>
             WHY THIS, WHY NOW
           </p>
-          <h2
-            className="text-4xl md:text-5xl mb-10"
-            style={{ ...DISPLAY, color: OFF_WHITE }}
-          >
-            Why this, why now
-          </h2>
           <div className="max-w-2xl space-y-6 text-base md:text-lg leading-relaxed" style={{ color: MUTED }}>
             <p>
-              Compute is doubling. Biology is being rewritten. Geopolitics is
-              reshuffling. Climate is converging on hard limits. All of it is
-              bending exponentially while our institutions, our habits, and our
-              inner operating systems are still calibrated for a linear world.
+              AI is doubling every five months. Biology has become writable.
+              Geopolitics is reshuffling. Climate is converging on hard limits.
+              All of it is bending exponentially while our institutions, our
+              habits, and our inner operating systems are still calibrated for a
+              linear world.
             </p>
             <p>
-              Working harder inside the old system isn&apos;t a strategy.
-              It&apos;s a slow surrender.
+              The world is moving faster and we&apos;re being called forward.
             </p>
             <p style={{ color: OFF_WHITE }}>
-              What the moment needs is a different kind of person — the kind who
-              treats impossible as a direction rather than a verdict. That person
-              is built, not born. This is where they&apos;re built.
+              What the moment needs is an impossible catalyst. One who treats
+              impossible as a direction rather than a verdict.
             </p>
           </div>
         </div>
@@ -160,25 +149,16 @@ export default function Home() {
           <p className="text-xs mb-10" style={{ ...MONO, color: MUTED }}>
             THE TRIBE
           </p>
-          <h2
-            className="text-4xl md:text-5xl mb-10 max-w-2xl"
-            style={{ ...DISPLAY, color: OFF_WHITE }}
-          >
-            Not a productivity community.{" "}
-            <em>A transformation collective.</em>
-          </h2>
           <div className="max-w-2xl space-y-6 text-base md:text-lg leading-relaxed" style={{ color: MUTED }}>
             <p>
-              This is not a productivity community. It is not a coaching
-              service. We are a collective of people committed to growth that
-              transforms both what you achieve and who you become.
+              We are impossible catalysts. People whose most important goal does
+              not fit inside who we currently are, and who have decided to close
+              that gap on purpose, with witnesses.
             </p>
-            <p
-              className="text-xl md:text-2xl pt-4"
-              style={{ ...DISPLAY, color: OFF_WHITE, fontStyle: "italic" }}
-            >
-              You are welcome here if the goal that keeps you up at night feels
-              impossible. That feeling is an invitation.
+            <p>
+              Three things bind us: a goal that feels impossible, the
+              willingness to become who that goal requires, and a preference for
+              doing that work in serious company.
             </p>
           </div>
         </div>
@@ -208,11 +188,11 @@ export default function Home() {
             Second-order change
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-10 mb-16">
+          <div className="grid md:grid-cols-2 gap-10 mb-0">
             <p className="text-base leading-relaxed" style={{ color: "#444" }}>
               <strong style={{ color: "#141414" }}>First-order change</strong>{" "}
               is doing more, better, or harder within the current system. It
-              produces incremental results at best — and against exponential
+              produces incremental results at best, and against exponential
               challenges, it produces nothing at all.
             </p>
             <p className="text-base leading-relaxed" style={{ color: "#444" }}>
@@ -223,79 +203,18 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Three-step */}
-          <div
-            className="border-t pt-12"
-            style={{ borderColor: "#d0d0cc" }}
-          >
-            <div className="grid md:grid-cols-3 gap-10">
-              {[
-                {
-                  n: "01",
-                  title: "Set the impossible goal",
-                  body: "Not what's achievable today. What the future is asking of you.",
-                },
-                {
-                  n: "02",
-                  title: "Map the transformation",
-                  body: "Define what must become true, in you, before the goal becomes possible.",
-                },
-                {
-                  n: "03",
-                  title: "Become that person",
-                  body: "Run structured experiments. Iterate toward the version of you who can do it.",
-                },
-              ].map(({ n, title, body }) => (
-                <div key={n}>
-                  <p
-                    className="text-xs mb-4"
-                    style={{ ...MONO, color: "#888" }}
-                  >
-                    {n}
-                  </p>
-                  <p
-                    className="text-lg mb-3 font-semibold"
-                    style={{ ...DISPLAY, color: "#141414" }}
-                  >
-                    {title}
-                  </p>
-                  <p className="text-sm leading-relaxed" style={{ color: "#555" }}>
-                    {body}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── HOW WE DO IT ─── */}
-      <section
-        className="py-28 px-6"
-        style={{ backgroundColor: DARK_ALT, borderTop: `1px solid ${RULE}` }}
-      >
-        <div className="mx-auto max-w-4xl">
-          <p className="text-xs mb-10" style={{ ...MONO, color: MUTED }}>
-            HOW WE DO IT
-          </p>
-          <h2
-            className="text-4xl md:text-5xl mb-14"
-            style={{ ...DISPLAY, color: OFF_WHITE }}
-          >
-            The methodology
-          </h2>
-
-          <div className="space-y-0">
+          {/* Three steps */}
+          <div className="space-y-0 mt-16">
             {[
               {
                 n: "01",
                 title: "Set the impossible goal",
-                body: "Not what's achievable today. What the future is asking of you. We help you name it with precision — specific enough to generate tension, big enough to require transformation.",
+                body: "Not what's achievable today. What the future is asking of you. We help you name it with precision, specific enough to generate tension, big enough to require transformation.",
               },
               {
                 n: "02",
                 title: "Map the transformation",
-                body: "Define what must become true — in your mindset, habits, systems, and culture — before the goal becomes possible. This is your second-order curriculum.",
+                body: "Define what must become true, in your mindset, habits, systems, and culture, before the goal becomes possible. This is your second-order curriculum.",
               },
               {
                 n: "03",
@@ -307,23 +226,23 @@ export default function Home() {
                 key={n}
                 className="grid md:grid-cols-[120px_1fr] gap-6 py-10"
                 style={{
-                  borderTop: `1px solid ${RULE}`,
-                  borderBottom: i === arr.length - 1 ? `1px solid ${RULE}` : "none",
+                  borderTop: `1px solid #d0d0cc`,
+                  borderBottom: i === arr.length - 1 ? `1px solid #d0d0cc` : "none",
                 }}
               >
-                <p className="text-xs pt-1" style={{ ...MONO, color: MUTED }}>
+                <p className="text-xs pt-1" style={{ ...MONO, color: "#888" }}>
                   {n}
                 </p>
                 <div>
                   <p
                     className="text-xl md:text-2xl mb-3"
-                    style={{ ...DISPLAY, color: OFF_WHITE }}
+                    style={{ ...DISPLAY, color: "#141414" }}
                   >
                     {title}
                   </p>
                   <p
                     className="text-base leading-relaxed max-w-xl"
-                    style={{ color: MUTED }}
+                    style={{ color: "#555" }}
                   >
                     {body}
                   </p>
@@ -371,8 +290,8 @@ export default function Home() {
               >
                 You&apos;ve got a goal that won&apos;t let go. You want
                 guidance, a structured process, and the knowledge you&apos;re
-                not alone in this. Start with the AI coach — free, no
-                experience required.
+                not alone in this. Start with the AI coach, free, no experience
+                required.
               </p>
               <a
                 href="https://app.impossiblegoals.club/"
@@ -440,7 +359,7 @@ export default function Home() {
             className="text-3xl md:text-4xl lg:text-5xl leading-snug mb-14"
             style={{ ...DISPLAY, color: OFF_WHITE, fontStyle: "italic" }}
           >
-            &ldquo;What&apos;s the goal you&apos;ve been avoiding — the one
+            &ldquo;What&apos;s the goal you&apos;ve been avoiding, the one
             that requires you to become someone different?&rdquo;
           </blockquote>
 
@@ -580,7 +499,7 @@ export default function Home() {
               ))}
             </div>
             <p className="text-xs mt-2" style={{ color: "rgba(240,240,236,0.25)" }}>
-              © 2025 Impossible Goals Club
+              © 2026 Impossible Goals Club
             </p>
           </div>
         </div>
