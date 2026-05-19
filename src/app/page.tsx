@@ -326,7 +326,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col gap-3">
                 <a
-                  href="/research"
+                  href="/writing"
                   className="inline-block text-sm font-semibold transition-opacity hover:opacity-75"
                   style={{ color: OFF_WHITE }}
                 >
@@ -411,7 +411,7 @@ export default function Home() {
               className="text-xs uppercase mb-4"
               style={{ ...MONO, color: "#888" }}
             >
-              Research
+              Writing
             </p>
             <h3
               className="text-2xl md:text-3xl mb-4"
@@ -428,7 +428,7 @@ export default function Home() {
               Wilber&apos;s Integral Theory and Otto Scharmer&apos;s Theory U.
             </p>
             <a
-              href="/research"
+              href="/writing"
               className="text-sm font-semibold hover:opacity-60 transition-opacity"
               style={{ color: "#141414" }}
             >
@@ -474,7 +474,6 @@ export default function Home() {
           <div className="flex flex-col md:items-end gap-2 text-sm">
             <div className="flex gap-6 flex-wrap md:justify-end">
               {[
-                { label: "Research", href: "/research" },
                 { label: "Writing", href: "#writing" },
                 { label: "hello@impossiblegoals.club", href: "mailto:hello@impossiblegoals.club" },
                 { label: "app.impossiblegoals.club →", href: "https://app.impossiblegoals.club/" },
