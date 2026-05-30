@@ -34,45 +34,37 @@ export default function SubscribeForm() {
     }
   }
 
-  if (status === "success") {
-    return (
-      <p className="text-sm" style={{ color: "#555" }}>
-        You&apos;re in. We&apos;ll be in touch.
-      </p>
-    );
-  }
-
   return (
-    <form className="flex gap-3 max-w-sm" onSubmit={handleSubmit}>
-      <input
-        type="email"
-        required
-        placeholder="your@email.com"
-        value={email}
-        onChange={(e) => {
-          setEmail(e.target.value);
-          if (status === "error") setStatus("idle");
-        }}
-        disabled={status === "loading"}
-        className="font-sans text-sm flex-1 border px-4 py-2 rounded focus:outline-none focus:ring-1 focus:ring-gray-400 disabled:opacity-50"
-        style={{ borderColor: status === "error" ? "#c0392b" : "#d0d0cc" }}
-      />
-      <button
-        type="submit"
-        disabled={status === "loading"}
-        className="font-sans text-sm px-4 py-2 rounded font-semibold transition-opacity cursor-pointer disabled:opacity-50"
-        style={{ backgroundColor: "#0d1117", color: "#f0f0ec" }}
-      >
-        {status === "loading" ? "..." : "Subscribe"}
-      </button>
-      {status === "error" && (
-        <p
-          className="absolute mt-10 text-xs"
-          style={{ color: "#c0392b" }}
+    <>
+      <form className="sub-form" onSubmit={handleSubmit}>
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="you@email.com"
+          aria-label="Email address"
+          value={email}
+          onChange={(e) => {
+            setEmail(e.target.value);
+            if (status === "error") setStatus("idle");
+          }}
+          disabled={status === "loading" || status === "success"}
+        />
+        <button
+          type="submit"
+          className="btn btn-primary"
+          disabled={status === "loading" || status === "success"}
         >
-          Something went wrong. Try again.
-        </p>
-      )}
-    </form>
+          {status === "loading" ? "Subscribing…" : "Subscribe"}
+        </button>
+      </form>
+      <p className="sub-note">
+        {status === "success"
+          ? "You're in. We'll be in touch."
+          : status === "error"
+          ? "Something went wrong. Try again."
+          : "No frequency promises. Unsubscribe anytime."}
+      </p>
+    </>
   );
 }
