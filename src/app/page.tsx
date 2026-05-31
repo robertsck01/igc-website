@@ -614,6 +614,19 @@ export default function Home() {
           <div className="writing-grid">
             <div className="article-card reveal">
               <span className="tag">Essay</span>
+              <h3>
+                Vertical Development, Exponential Organizations, and the
+                Capacities IGC Develops
+              </h3>
+              <p>
+                The intellectual foundation of the IGC method &mdash; a
+                synthesis of the adult-development and exponential-organization
+                literatures, and the capacities IGC works on directly.
+              </p>
+              <Link href="/writing/foundations">Read the article →</Link>
+            </div>
+            <div className="article-card reveal">
+              <span className="tag">Essay</span>
               <h3>Impossible Goals as a Developmental Technology</h3>
               <p>
                 A framework for using the pursuit of impossible goals as the
