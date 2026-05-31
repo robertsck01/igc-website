@@ -273,73 +273,73 @@ export default function FoundationsArticle() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="row-head">Perspective-taking</td>
+                  <td><strong>Perspective-taking</strong></td>
                   <td>Central marker across all frameworks; later stages hold conflicting views at once</td>
                   <td>Systems, community, and distributed collaboration all require it</td>
                   <td>Yes. The four-quadrant transformation map and the block-triage process require holding several perspectives on the goal at once</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Systemic thinking</td>
+                  <td><strong>Systemic thinking</strong></td>
                   <td>Seeing wholes, interdependence, feedback; expands with stage</td>
                   <td>Platforms, leveraged assets, dashboards, ecosystems</td>
                   <td>Yes. The systems and people quadrants of the map, and the same triage</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Self-authorship and autonomy</td>
+                  <td><strong>Self-authorship and autonomy</strong></td>
                   <td>Kegan&apos;s socialized to self-authored shift</td>
                   <td>The Autonomy attribute and self-directed work</td>
                   <td>Yes. The work of choosing a goal that is genuinely the person&apos;s own, rather than one that is safe or assigned</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Questioning one&apos;s own assumptions</td>
+                  <td><strong>Questioning one&apos;s own assumptions</strong></td>
                   <td>The subject-object move; reflective capacity</td>
                   <td>Experimentation and dashboards assume honest self-correction</td>
                   <td>Yes. Surfacing and testing one&apos;s hidden big assumptions is the most directly developmental move in the method</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Tolerance for ambiguity and paradox</td>
+                  <td><strong>Tolerance for ambiguity and paradox</strong></td>
                   <td>Strengthens markedly at later stages</td>
                   <td>Constant in exponential, disruptive environments</td>
                   <td>Yes. Designing experiments that are bold but bounded, and pacing them, holds the paradox deliberately</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Second-order change-making</td>
+                  <td><strong>Second-order change-making</strong></td>
                   <td>Associated with the Strategist and later action logics</td>
                   <td>The entire premise of transformative, not incremental, organizations</td>
                   <td>Yes. This is the method&apos;s spine, drawn from Watzlawick</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Moonshot ambition, audacity</td>
+                  <td><strong>Moonshot ambition, audacity</strong></td>
                   <td>Expanded time horizon and scope of ambition</td>
                   <td>MTP and the 10x, abundance mindset</td>
                   <td>Yes. The impossible-goal selection, drawn from Diamandis</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Purpose and expanded concern</td>
+                  <td><strong>Purpose and expanded concern</strong></td>
                   <td>Widening circle of identity and concern</td>
                   <td>The Massive Transformative Purpose</td>
                   <td>Partly. The dream-behind-the-dream work, drawn from Scharmer</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Comfort with experimentation and failure</td>
+                  <td><strong>Comfort with experimentation and failure</strong></td>
                   <td>Treating one&apos;s framework as provisional; learning agility</td>
                   <td>The Experimentation attribute</td>
                   <td>Yes. Safe-to-fail probes, drawn from Cynefin</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Mature interdependence</td>
+                  <td><strong>Mature interdependence</strong></td>
                   <td>Later-stage collaboration across difference</td>
                   <td>Staff on Demand, Community and Crowd</td>
                   <td>Partly. It strengthens in the team-focused layer of the method</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Equanimity under pressure</td>
+                  <td><strong>Equanimity under pressure</strong></td>
                   <td>Regulation that enables the other capacities</td>
                   <td>Functioning amid continual disruption</td>
                   <td>Yes. The pacing and somatic-readiness work, drawn from Strozzi</td>
                 </tr>
                 <tr>
-                  <td className="row-head">Learning agility and openness to transformation</td>
+                  <td><strong>Learning agility and openness to transformation</strong></td>
                   <td>The developmental disposition itself</td>
                   <td>Adaptability as a survival trait</td>
                   <td>Yes. The sprint, retrospective, and experiment loop is a learning cycle</td>
