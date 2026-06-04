@@ -15,10 +15,9 @@ export default function Article() {
         </Link>
         <nav className="nav-links" aria-label="Primary">
           <Link className="link" href="/#method">The Method</Link>
-          <Link className="link" href="/#foundations">The Foundations</Link>
-          <Link className="link" href="/#coach">The Coach</Link>
+          <Link className="link" href="/#foundations">The Research</Link>
           <Link className="link" href="/writing">Writing</Link>
-          <a className="nav-cta" href={APP_URL}>Start free →</a>
+          <a className="nav-cta" href={APP_URL}>Try it free →</a>
         </nav>
       </header>
 
@@ -543,13 +542,13 @@ export default function Article() {
 
       {/* BOTTOM */}
       <section className="article-bottom">
-        <div className="wrap row">
-          <Link href="/" className="back">
-            ← Impossible Goals Club
-          </Link>
-          <a className="btn btn-primary" href={APP_URL}>
-            Start with an impossible goal →
-          </a>
+        <div className="wrap">
+          <div className="row">
+            <Link href="/writing" className="back">← Writing</Link>
+            <a className="btn btn-primary" href={APP_URL}>
+              Try the Impossible Goals AI Coach →
+            </a>
+          </div>
         </div>
       </section>
     </>
