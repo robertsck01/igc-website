@@ -288,8 +288,9 @@ export default function Home() {
       <section id="invitation" aria-labelledby="inv-h">
         <div className="wrap invite">
           <blockquote className="reveal" id="inv-h">
-            What&apos;s the goal you&apos;ve been avoiding, the one that
-            requires you to become someone different?
+            What&apos;s the goal that matters most to you and still feels
+            genuinely impossible, the kind you can&apos;t see a path to from
+            where you stand?
           </blockquote>
           <p className="invite-prompt reveal">That&apos;s where we begin.</p>
           <div className="hero-cta reveal" style={{ justifyContent: "center", marginTop: "2.4rem" }}>
