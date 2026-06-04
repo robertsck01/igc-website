@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Impossible Goals Club · Upgrading the human operating system",
+  title:
+    "Impossible Goals Club · Can we grow as fast as the technology we build?",
   description:
-    "A coach for the goal that feels impossible. Step outside the system, make the bold, bounded move, at the pace your readiness allows.",
+    "An open research-and-build project exploring whether AI can help people pursue goals that feel impossible today. Try the coach, or build it with us.",
 };
 
 export default function RootLayout({
