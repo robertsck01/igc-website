@@ -102,8 +102,8 @@ export default function Home() {
                 <span className="tenet-no">03</span>
                 <div className="tenet-body">
                   <p>
-                    Naming an assumption is most of the work, because you
-                    cannot challenge what you cannot see.
+                    Hold an unrelenting focus on the assumptions themselves,
+                    which is what we call second-order change.
                   </p>
                 </div>
               </li>
