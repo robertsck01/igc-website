@@ -102,8 +102,8 @@ export default function Home() {
                 <span className="tenet-no">03</span>
                 <div className="tenet-body">
                   <p>
-                    Hold an unrelenting focus on the assumptions themselves,
-                    which is what we call second-order change.
+                    Profound change occurs when we hold an unrelenting focus on
+                    these hidden assumptions (known as second-order change).
                   </p>
                 </div>
               </li>
