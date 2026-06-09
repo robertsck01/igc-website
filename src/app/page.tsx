@@ -220,7 +220,7 @@ export default function Home() {
               <p>
                 Your impossible goal becomes a multi-week transformation, and the
                 coach walks it with you day by day. Your unique map of what must
-                change is plotted and refined across many conversations — never
+                change is plotted and refined across many conversations, never
                 restarted from scratch.
               </p>
             </div>
@@ -228,8 +228,8 @@ export default function Home() {
               <span className="tag">Developmentally tailored</span>
               <h4>Experiments matched to where you are</h4>
               <p>
-                The coach reads developmental signals — your emotional
-                intelligence, your capacity for taking other perspectives — and
+                The coach reads developmental signals: your emotional
+                intelligence, your capacity for taking other perspectives. It
                 designs experiments that fit where you stand today while
                 deliberately stretching those capacities. Growth is calibrated to
                 you.
@@ -240,7 +240,7 @@ export default function Home() {
               <h4>Relentless focus on the high-leverage move</h4>
               <p>
                 It&apos;s easy to drift into doing more of the same. The coach
-                holds the line on second-order change — the handful of shifts in
+                holds the line on second-order change: the handful of shifts in
                 assumption and identity that actually move an impossible goal, and
                 the ones almost everything else ignores.
               </p>
@@ -250,7 +250,7 @@ export default function Home() {
               <h4>Built on fifty years of study</h4>
               <p>
                 None of this is improvised. Every move is drawn from decades of
-                research into how sudden, impossible change really happens —{" "}
+                research into how sudden, impossible change really happens:{" "}
                 <Link className="text-link" href="/research">
                   the lineage
                 </Link>{" "}
