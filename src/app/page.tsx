@@ -15,6 +15,7 @@ export default function Home() {
         </Link>
         <nav className="nav-links" aria-label="Primary">
           <a className="link" href="#method">The Method</a>
+          <a className="link" href="#why-coach">Why It&apos;s Different</a>
           <a className="link" href="/writing">Writing</a>
           <a className="link" href="#build">Build With Us</a>
           <a className="nav-cta" href={APP_URL}>Try it free →</a>
@@ -193,6 +194,68 @@ export default function Home() {
                   step.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WHAT MAKES THE COACH UNIQUE */}
+      <section id="why-coach" aria-labelledby="why-h">
+        <div className="wrap">
+          <span className="eyebrow reveal">What makes it different</span>
+          <h2 className="h-section reveal" id="why-h">
+            A coach that adapts to who you&apos;re <em>becoming</em>.
+          </h2>
+          <p className="lede reveal">
+            Reaching an impossible goal is a long act of transformation, so the
+            coach is built like one. It carries your whole journey across many
+            conversations, reads where you are developmentally, and keeps an
+            unrelenting focus on the few changes that actually matter.
+          </p>
+
+          <div className="def-grid reveal">
+            <div className="def">
+              <span className="tag">A transformation arc</span>
+              <h4>It guides you daily, across weeks</h4>
+              <p>
+                Your impossible goal becomes a multi-week transformation, and the
+                coach walks it with you day by day. Your unique map of what must
+                change is plotted and refined across many conversations, never
+                restarted from scratch.
+              </p>
+            </div>
+            <div className="def">
+              <span className="tag">Developmentally tailored</span>
+              <h4>Experiments matched to where you are</h4>
+              <p>
+                The coach reads developmental signals: your emotional
+                intelligence, your capacity for taking other perspectives. It
+                designs experiments that fit where you stand today while
+                deliberately stretching those capacities. Growth is calibrated to
+                you.
+              </p>
+            </div>
+            <div className="def">
+              <span className="tag">Second-order by design</span>
+              <h4>Relentless focus on the high-leverage move</h4>
+              <p>
+                It&apos;s easy to drift into doing more of the same. The coach
+                holds the line on second-order change: the handful of shifts in
+                assumption and identity that actually move an impossible goal, and
+                the ones almost everything else ignores.
+              </p>
+            </div>
+            <div className="def second">
+              <span className="tag">Grounded in research</span>
+              <h4>Built on fifty years of study</h4>
+              <p>
+                None of this is improvised. Every move is drawn from decades of
+                research into how sudden, impossible change really happens:{" "}
+                <Link className="text-link" href="/research">
+                  the lineage
+                </Link>{" "}
+                the whole coach is built on.
+              </p>
             </div>
           </div>
         </div>
