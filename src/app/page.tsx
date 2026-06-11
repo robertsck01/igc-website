@@ -59,7 +59,109 @@ export default function Home() {
             <a className="btn btn-primary" href={APP_URL}>
               Try the Impossible Goals AI Coach →
             </a>
+            <p className="beta-note">The app is in early beta — we&rsquo;d love your feedback.</p>
           </div>
+        </div>
+      </section>
+
+      {/* BETA ANNOUNCEMENT */}
+      <section id="beta" aria-labelledby="beta-h">
+        <div className="wrap">
+          <div className="beta-panel reveal">
+            <div className="beta-banner">
+              <span className="beta-badge">Now in beta</span>
+              <span className="beta-version">First public release</span>
+            </div>
+            <h2 className="h-section" id="beta-h">
+              Announcing the <em>Impossible Goals Coach</em>.
+            </h2>
+            <p className="lede">
+              Our first release is live, and free while it&rsquo;s in beta.
+              Through plain conversation, the coach walks you through the whole
+              method, from naming a goal that feels impossible to running your
+              first real experiment. It&rsquo;s designed to:
+            </p>
+
+            <ol className="beta-cards">
+              <li className="beta-card">
+                <span className="beta-no">01</span>
+                <h4>Set a goal that&rsquo;s truly impossible</h4>
+                <p>
+                  Guide you to a genuine impossible goal, pressure-testing it
+                  so you don&rsquo;t settle for an incremental one in disguise.
+                </p>
+              </li>
+              <li className="beta-card">
+                <span className="beta-no">02</span>
+                <h4>Build your transformation map</h4>
+                <p>
+                  Guide you to map what must become true to reach it, across
+                  the four dimensions of structural change: mindset, habits,
+                  systems, and culture.
+                </p>
+              </li>
+              <li className="beta-card">
+                <span className="beta-no">03</span>
+                <h4>Run your first experiment</h4>
+                <p>
+                  Guide you to your first experiment in second-order change, a
+                  real test aimed at the assumptions holding you in place.
+                </p>
+              </li>
+            </ol>
+
+            <p className="beta-facts">
+              <b>Free while in beta</b>
+              <span className="dot">·</span>
+              A coach trained in 2nd-order change
+              <span className="dot">·</span>
+              Your map saves as you go
+            </p>
+
+            <div className="beta-cta">
+              <a className="btn btn-primary" href={APP_URL}>
+                Try the beta free →
+              </a>
+              <p className="beta-note">
+                You&rsquo;re among the first to use it. Tell us what works and
+                what doesn&rsquo;t, your feedback shapes the release.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* MEET THE COACH */}
+      <section id="coach" aria-labelledby="coach-h">
+        <div className="wrap">
+          <span className="eyebrow reveal">Meet the coach</span>
+          <h2 className="h-section reveal" id="coach-h">
+            Your <em>partner</em> in impossible change.
+          </h2>
+          <p className="lede reveal">
+            Through simple conversation, the coach works with you to build a
+            map for the change your impossible goal demands, then helps you
+            run the experiments that move you toward it.
+          </p>
+
+          <div className="shot-frame reveal">
+            <div className="shot-annotated">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/app-screenshot.png"
+                alt="The Impossible Goals coach in action"
+              />
+              <div className="callout-pin" style={{ left: "80%", top: "15%" }} data-n="1" />
+              <div className="callout-pin" style={{ left: "25%", top: "35%" }} data-n="2" />
+              <div className="callout-pin" style={{ left: "34%", top: "68%" }} data-n="3" />
+            </div>
+          </div>
+          <ol className="shot-legend reveal">
+            <li>Persistent map tracking your change effort.</li>
+            <li>Conversation with a coach trained in 2nd-order change.</li>
+            <li>A daily question that drives individual and organizational reflection.</li>
+          </ol>
+
         </div>
       </section>
 
@@ -287,30 +389,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* MEET THE COACH */}
-      <section id="coach" aria-labelledby="coach-h">
-        <div className="wrap">
-          <span className="eyebrow reveal">Meet the coach</span>
-          <h2 className="h-section reveal" id="coach-h">
-            Your <em>partner</em> in impossible change.
-          </h2>
-          <p className="lede reveal">
-            Through simple conversation, the coach works with you to build a
-            map for the change your impossible goal demands, then helps you
-            run the experiments that move you toward it.
-          </p>
-
-          <div className="shot-frame reveal">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/app-screenshot.png"
-              alt="The Impossible Goals coach in action"
-            />
-          </div>
-
-        </div>
-      </section>
-
       {/* WORK WITH US */}
       <section id="build" aria-labelledby="build-h">
         <div className="wrap">
@@ -363,6 +441,7 @@ export default function Home() {
             <a className="btn btn-ghost" href="#build">
               Build it with us →
             </a>
+            <p className="beta-note">The app is in early beta — we&rsquo;d love your feedback.</p>
           </div>
         </div>
       </section>
