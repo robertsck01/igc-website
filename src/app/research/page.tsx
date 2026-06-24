@@ -6,7 +6,7 @@ const APP_URL = "https://app.impossiblegoals.club/";
 export const metadata = {
   title: "The research we're building on — Impossible Goals Club",
   description:
-    "The full lineage behind the Impossible Goals method: the developmental, systems, and complexity research the coach is built on.",
+    "The full lineage behind the Impossible Goals method: the developmental, systems, and complexity research the AI is built on.",
 };
 
 export default function Research() {
@@ -34,7 +34,7 @@ export default function Research() {
             The research we&apos;re building on.
           </h1>
           <p className="article-sub-title reveal">
-            The developmental, systems, and complexity work the coach draws
+            The developmental, systems, and complexity work the AI draws
             from.
           </p>
         </div>
@@ -51,7 +51,7 @@ export default function Research() {
           </p>
           <p className="lede reveal">
             That kind of change has been studied for half a century. This
-            coach is built directly on that research. Below is the lineage it
+            AI is built directly on that research. Below is the lineage it
             draws on.
           </p>
 
@@ -67,7 +67,7 @@ export default function Research() {
                 <span className="entry-framework">Adaptive Leadership</span>
                 <p className="entry-desc">
                   Some problems yield to what you already know. Others require
-                  you to change before they can move at all. The coach checks
+                  you to change before they can move at all. The AI checks
                   that your goal is the second kind, because that is the only
                   kind this method is built to serve.
                 </p>
@@ -80,7 +80,7 @@ export default function Research() {
                 <span className="entry-framework">10x Thinking</span>
                 <p className="entry-desc">
                   A goal ten times beyond your current reach cannot be met by
-                  doing more of what you already do. The coach pushes for that
+                  doing more of what you already do. The AI pushes for that
                   scale, because it is the size of goal that makes genuine
                   change necessary rather than optional.
                 </p>
@@ -93,7 +93,7 @@ export default function Research() {
                 <span className="entry-framework">Theory U</span>
                 <p className="entry-desc">
                   Underneath the goal you say out loud, there is often the one
-                  you actually want. The coach uses presencing questions, what
+                  you actually want. The AI uses presencing questions, what
                   wants to let go and what wants to emerge, to reach the real
                   goal beneath the safe one.
                 </p>
@@ -128,7 +128,7 @@ export default function Research() {
                 <p className="entry-desc">
                   Beneath a change you genuinely want, a quieter commitment is
                   often working to keep you exactly as you are, held in place
-                  by a single belief you treat as plain fact. The coach
+                  by a single belief you treat as plain fact. The AI
                   surfaces that belief, holds it up as testable, and designs
                   small, safe experiments that loosen its grip over time. The
                   same pattern scales to organizations, where shared
@@ -153,7 +153,7 @@ export default function Research() {
                 </span>
                 <p className="entry-desc">
                   In genuinely complex situations, you cannot plan your way to
-                  the answer, you probe toward it. Every experiment the coach
+                  the answer, you probe toward it. Every experiment the AI
                   designs is a safe-to-fail probe: small, reversible, and
                   built to teach you something real whatever the outcome.
                 </p>
@@ -167,7 +167,7 @@ export default function Research() {
                 <p className="entry-desc">
                   Growing wider means adding skills and information. Growing
                   taller means developing a larger way of seeing the same
-                  situation. The coach tracks your progress by the second of
+                  situation. The AI tracks your progress by the second of
                   those, the shift in how you hold the problem itself.
                 </p>
               </div>
@@ -179,7 +179,7 @@ export default function Research() {
                 <span className="entry-framework">Somatic Leadership</span>
                 <p className="entry-desc">
                   Transformation is embodied, practiced into the body over
-                  time, rather than understood once and adopted. The coach
+                  time, rather than understood once and adopted. The AI
                   treats your experiments as repetitions and respects the
                   tempo real change requires, leaning in when you are ready
                   and waiting when a shift needs time to take hold.
@@ -198,7 +198,7 @@ export default function Research() {
                 personal-growth tools rest on a single idea: that you are
                 capable of change. Dweck&apos;s work made that idea
                 mainstream, and it is the ground this stands on. From there,
-                the coach goes to work on the mechanics, the exact belief
+                the AI goes to work on the mechanics, the exact belief
                 holding one specific goal out of reach, and what it takes to
                 move it.
               </p>
@@ -208,14 +208,14 @@ export default function Research() {
           <div className="coda reveal">
             <span className="glyph">· · ·</span>
             <p>
-              You&apos;ll never hear these names in a session. The coach
+              You&apos;ll never hear these names in a session. The AI
               speaks in plain language. The theory lives in how it thinks.
             </p>
           </div>
 
           <div className="found-cta reveal">
             <a className="btn btn-primary" href={APP_URL}>
-              Try the coach on your own goal →
+              Try the AI on your own goal →
             </a>
           </div>
         </div>
