@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SiteEffects from "./components/SiteEffects";
+import PersonaCTA from "./components/PersonaCTA";
 
 const APP_URL = "https://app.impossiblegoals.club/";
 
@@ -18,7 +19,8 @@ export default function Home() {
           <a className="link" href="#why-coach">Why It&apos;s Different</a>
           <a className="link" href="/writing">Writing</a>
           <a className="link" href="#build">Build With Us</a>
-          <a className="nav-cta" href={APP_URL}>Try it free →</a>
+          <a className="link" href={`${APP_URL}auth/login`}>Log in</a>
+          <a className="nav-cta" href="#start">Try it free →</a>
         </nav>
       </header>
 
@@ -31,35 +33,33 @@ export default function Home() {
           <h1
             className="hero-h1 reveal"
             id="hero-h"
-            style={{ maxWidth: "32ch" }}
+            style={{ maxWidth: "16ch" }}
           >
-            Sometimes, the <em>impossible</em> happens in an instant.
+            The <em>Only</em> AI for 10X Goals
           </h1>
-          <div className="hero-stairs reveal" aria-hidden="false">
-            <span className="stair stair-1">
-              Walls <em>fall</em>.
-            </span>
-            <span className="stair stair-2">
-              Ideas <em>ignite</em>.
-            </span>
-            <span className="stair stair-3">
-              Identities <em>shift</em>.
-            </span>
-          </div>
-          <blockquote className="hero-quote reveal">
-            All it takes is one critical shift. A belief unlearned, an
-            assumption tested, and &ldquo;never&rdquo; becomes &ldquo;
-            <em>now</em>.&rdquo;
-          </blockquote>
           <p className="hero-sub reveal">
-            Apply the Impossible Goal Method to the &ldquo;never&rdquo; in
-            your life, your work, or your community.
+            Most coaches, courses, and accelerators offer first-order change
+            (better tactics and knowledge): this is second-order change, a
+            shift in the foundation underneath you and the system around you,
+            the kind of change a 10X goal actually requires.
           </p>
-          <div className="hero-cta reveal">
-            <a className="btn btn-primary" href={APP_URL}>
-              Try the Impossible Goals AI Coach →
-            </a>
-            <p className="beta-note">The app is in early beta — we&rsquo;d love your feedback.</p>
+          <ul className="hero-points reveal">
+            <li>
+              100% focused on vertical development: not accountability, not
+              skills, not emotional support
+            </li>
+            <li>
+              Built on 50+ years of adult-development science and
+              high-performance research
+            </li>
+            <li>Human capacity for the exponential age</li>
+          </ul>
+          <div className="persona-cta reveal" id="start">
+            <span className="persona-cta-label">Choose your focus to begin</span>
+            <PersonaCTA />
+            <p className="beta-note">
+              The app is in early beta, and we&rsquo;d love your feedback.
+            </p>
           </div>
         </div>
       </section>
@@ -73,11 +73,11 @@ export default function Home() {
               <span className="beta-version">First public release</span>
             </div>
             <h2 className="h-section" id="beta-h">
-              Announcing the <em>Impossible Goals Coach</em>.
+              Announcing the <em>Impossible Goals AI</em>.
             </h2>
             <p className="lede">
               Our first release is live, and free while it&rsquo;s in beta.
-              Through plain conversation, the coach walks you through the whole
+              Through plain conversation, the AI walks you through the whole
               method, from naming a goal that feels impossible to running your
               first real experiment. It&rsquo;s designed to:
             </p>
@@ -113,7 +113,7 @@ export default function Home() {
             <p className="beta-facts">
               <b>Free while in beta</b>
               <span className="dot">·</span>
-              A coach trained in 2nd-order change
+              An AI trained in 2nd-order change
               <span className="dot">·</span>
               Your map saves as you go
             </p>
@@ -131,15 +131,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* MEET THE COACH */}
+      {/* MEET THE AI */}
       <section id="coach" aria-labelledby="coach-h">
         <div className="wrap">
-          <span className="eyebrow reveal">Meet the coach</span>
+          <span className="eyebrow reveal">Meet the AI</span>
           <h2 className="h-section reveal" id="coach-h">
-            Your <em>partner</em> in impossible change.
+            Built for <em>impossible</em> change.
           </h2>
           <p className="lede reveal">
-            Through simple conversation, the coach works with you to build a
+            Through simple conversation, the AI works with you to build a
             map for the change your impossible goal demands, then helps you
             run the experiments that move you toward it.
           </p>
@@ -149,7 +149,7 @@ export default function Home() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/app-screenshot.png"
-                alt="The Impossible Goals coach in action"
+                alt="The Impossible Goals AI in action"
               />
               <div className="callout-pin" style={{ left: "80%", top: "15%" }} data-n="1" />
               <div className="callout-pin" style={{ left: "25%", top: "35%" }} data-n="2" />
@@ -158,7 +158,7 @@ export default function Home() {
           </div>
           <ol className="shot-legend reveal">
             <li>Persistent map tracking your change effort.</li>
-            <li>Conversation with a coach trained in 2nd-order change.</li>
+            <li>Conversation with an AI trained in 2nd-order change.</li>
             <li>A daily question that drives individual and organizational reflection.</li>
           </ol>
 
@@ -177,7 +177,7 @@ export default function Home() {
             toppled regimes, disrupted industries, and lives that turned
             around. The same shape keeps appearing across the research. We
             pulled it out and built it into one repeatable method, the loop
-            the coach runs with you.
+            the AI runs with you.
           </p>
 
           <div className="tenets reveal">
@@ -301,16 +301,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WHAT MAKES THE COACH UNIQUE */}
+      {/* WHAT MAKES THE AI UNIQUE */}
       <section id="why-coach" aria-labelledby="why-h">
         <div className="wrap">
           <span className="eyebrow reveal">What makes it different</span>
           <h2 className="h-section reveal" id="why-h">
-            A coach that adapts to who you&apos;re <em>becoming</em>.
+            An AI that adapts to who you&apos;re <em>becoming</em>.
           </h2>
           <p className="lede reveal">
             Reaching an impossible goal is a long act of transformation, so the
-            coach is built like one. It carries your whole journey across many
+            AI is built like one. It carries your whole journey across many
             conversations, reads where you are developmentally, and keeps an
             unrelenting focus on the few changes that actually matter.
           </p>
@@ -321,7 +321,7 @@ export default function Home() {
               <h4>It guides you daily, across weeks</h4>
               <p>
                 Your impossible goal becomes a multi-week transformation, and the
-                coach walks it with you day by day. Your unique map of what must
+                AI walks it with you day by day. Your unique map of what must
                 change is plotted and refined across many conversations, never
                 restarted from scratch.
               </p>
@@ -330,7 +330,7 @@ export default function Home() {
               <span className="tag">Developmentally tailored</span>
               <h4>Experiments matched to where you are</h4>
               <p>
-                The coach reads developmental signals: your emotional
+                The AI reads developmental signals: your emotional
                 intelligence, your capacity for taking other perspectives. It
                 designs experiments that fit where you stand today while
                 deliberately stretching those capacities. Growth is calibrated to
@@ -341,7 +341,7 @@ export default function Home() {
               <span className="tag">Second-order by design</span>
               <h4>Relentless focus on the high-leverage move</h4>
               <p>
-                It&apos;s easy to drift into doing more of the same. The coach
+                It&apos;s easy to drift into doing more of the same. The AI
                 holds the line on second-order change: the handful of shifts in
                 assumption and identity that actually move an impossible goal, and
                 the ones almost everything else ignores.
@@ -356,7 +356,7 @@ export default function Home() {
                 <Link className="text-link" href="/research">
                   the lineage
                 </Link>{" "}
-                the whole coach is built on.
+                the whole AI is built on.
               </p>
             </div>
           </div>
@@ -373,7 +373,7 @@ export default function Home() {
           <p className="lede reveal">
             The goals that feel impossible ask you to change how you see,
             what you believe, and who you become. That kind of change has
-            been studied for half a century. The coach is built directly on
+            been studied for half a century. The AI is built directly on
             that research.
           </p>
           <p className="lineage-names reveal">
@@ -435,13 +435,13 @@ export default function Home() {
           </blockquote>
           <p className="invite-prompt reveal">That&apos;s where we begin.</p>
           <div className="hero-cta reveal" style={{ justifyContent: "center", marginTop: "2.4rem" }}>
-            <a className="btn btn-primary" href={APP_URL}>
-              Try the coach on your own goal →
+            <a className="btn btn-primary" href="#start">
+              Try the AI on your own goal →
             </a>
             <a className="btn btn-ghost" href="#build">
               Build it with us →
             </a>
-            <p className="beta-note">The app is in early beta — we&rsquo;d love your feedback.</p>
+            <p className="beta-note">The app is in early beta, and we&rsquo;d love your feedback.</p>
           </div>
         </div>
       </section>

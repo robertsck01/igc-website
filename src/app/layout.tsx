@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Impossible Goals Club · Can we grow as fast as the technology we build?",
   description:
-    "An open research-and-build project exploring whether AI can help people pursue goals that feel impossible today. Try the coach, or build it with us.",
+    "An open research-and-build project exploring whether AI can help people pursue goals that feel impossible today. Try the AI, or build it with us.",
 };
 
 export default function RootLayout({

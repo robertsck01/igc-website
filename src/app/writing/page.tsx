@@ -78,7 +78,7 @@ export default function Writing() {
               </h2>
               <p className="writing-index-desc">
                 The full lineage behind the Impossible Goals method: the
-                developmental, systems, and complexity research the coach is
+                developmental, systems, and complexity research the AI is
                 built on. Eight thinkers across three phases.
               </p>
               <Link className="writing-index-read" href="/research">

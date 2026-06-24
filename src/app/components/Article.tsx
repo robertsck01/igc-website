@@ -546,7 +546,7 @@ export default function Article() {
           <div className="row">
             <Link href="/writing" className="back">← Writing</Link>
             <a className="btn btn-primary" href={APP_URL}>
-              Try the Impossible Goals AI Coach →
+              Try the Impossible Goals AI →
             </a>
           </div>
         </div>
