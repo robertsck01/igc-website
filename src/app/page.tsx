@@ -18,7 +18,6 @@ export default function Home() {
           <a className="link" href="#method">The Method</a>
           <a className="link" href="#why-coach">Why It&apos;s Different</a>
           <a className="link" href="/writing">Writing</a>
-          <a className="link" href="#build">Build With Us</a>
           <a className="link" href={`${APP_URL}auth/login`}>Log in</a>
           <a className="nav-cta" href="#start">Try it free →</a>
         </nav>
@@ -35,13 +34,11 @@ export default function Home() {
             id="hero-h"
             style={{ maxWidth: "16ch" }}
           >
-            The <em>Only</em> AI for 10X Goals
+            The <em>Only</em> AI Built for 10X Goals
           </h1>
           <p className="hero-sub reveal">
-            Most coaches, courses, and accelerators offer first-order change
-            (better tactics and knowledge): this is second-order change, a
-            shift in the foundation underneath you and the system around you,
-            the kind of change a 10X goal actually requires.
+            A developmental model that surfaces and restructures the patterns
+            blocking growth.
           </p>
           <ul className="hero-points reveal">
             <li>
@@ -60,73 +57,6 @@ export default function Home() {
             <p className="beta-note">
               The app is in early beta, and we&rsquo;d love your feedback.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* BETA ANNOUNCEMENT */}
-      <section id="beta" aria-labelledby="beta-h">
-        <div className="wrap">
-          <div className="beta-panel reveal">
-            <div className="beta-banner">
-              <span className="beta-badge">Now in beta</span>
-              <span className="beta-version">First public release</span>
-            </div>
-            <h2 className="h-section" id="beta-h">
-              Announcing the <em>Impossible Goals AI</em>.
-            </h2>
-            <p className="lede">
-              Our first release is live, and free while it&rsquo;s in beta.
-              Through plain conversation, the AI walks you through the whole
-              method, from naming a goal that feels impossible to running your
-              first real experiment. It&rsquo;s designed to:
-            </p>
-
-            <ol className="beta-cards">
-              <li className="beta-card">
-                <span className="beta-no">01</span>
-                <h4>Set a goal that&rsquo;s truly impossible</h4>
-                <p>
-                  Guide you to a genuine impossible goal, pressure-testing it
-                  so you don&rsquo;t settle for an incremental one in disguise.
-                </p>
-              </li>
-              <li className="beta-card">
-                <span className="beta-no">02</span>
-                <h4>Build your transformation map</h4>
-                <p>
-                  Guide you to map what must become true to reach it, across
-                  the four dimensions of structural change: mindset, habits,
-                  systems, and culture.
-                </p>
-              </li>
-              <li className="beta-card">
-                <span className="beta-no">03</span>
-                <h4>Run your first experiment</h4>
-                <p>
-                  Guide you to your first experiment in second-order change, a
-                  real test aimed at the assumptions holding you in place.
-                </p>
-              </li>
-            </ol>
-
-            <p className="beta-facts">
-              <b>Free while in beta</b>
-              <span className="dot">·</span>
-              An AI trained in 2nd-order change
-              <span className="dot">·</span>
-              Your map saves as you go
-            </p>
-
-            <div className="beta-cta">
-              <a className="btn btn-primary" href={APP_URL}>
-                Try the beta free →
-              </a>
-              <p className="beta-note">
-                You&rsquo;re among the first to use it. Tell us what works and
-                what doesn&rsquo;t, your feedback shapes the release.
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -162,6 +92,54 @@ export default function Home() {
             <li>A daily question that drives individual and organizational reflection.</li>
           </ol>
 
+        </div>
+      </section>
+
+      {/* METHOD */}
+      <section id="method" aria-labelledby="method-h">
+        <div className="wrap">
+          <span className="eyebrow reveal">The method</span>
+          <h2 className="h-section reveal" id="method-h">
+            Set it. Map it. <em>Test it.</em>
+          </h2>
+          <p className="lede reveal">
+            Change the ecosystem you&apos;re in, rather than pushing harder
+            inside it.
+          </p>
+          <div className="steps">
+            <div className="step reveal">
+              <div className="s-no">01</div>
+              <div>
+                <h4>Set a goal that truly feels impossible</h4>
+                <p>
+                  You should doubt it&apos;s achievable. It should feel
+                  scary. It will demand profound change in you and your
+                  environment.
+                </p>
+              </div>
+            </div>
+            <div className="step reveal">
+              <div className="s-no">02</div>
+              <div>
+                <h4>Define what must become true</h4>
+                <p>
+                  What has to transform across your mindset, habits, systems,
+                  and team or culture?
+                </p>
+              </div>
+            </div>
+            <div className="step reveal">
+              <div className="s-no">03</div>
+              <div>
+                <h4>Run bold experiments</h4>
+                <p>
+                  Run experiments that test the assumptions in your way and
+                  build your capacity for change. Each one reveals the next
+                  step.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -253,50 +231,28 @@ export default function Home() {
         </div>
       </section>
 
-      {/* METHOD */}
-      <section id="method" aria-labelledby="method-h">
+      {/* FOUNDATIONS / THE RESEARCH (short framing) */}
+      <section id="foundations" aria-labelledby="found-h">
         <div className="wrap">
-          <span className="eyebrow reveal">The method</span>
-          <h2 className="h-section reveal" id="method-h">
-            Set it. Map it. <em>Test it.</em>
+          <span className="eyebrow reveal">A method with a lineage</span>
+          <h2 className="h-section reveal" id="found-h">
+            The <em>research</em>{" "}we&apos;re building on.
           </h2>
           <p className="lede reveal">
-            Change the ecosystem you&apos;re in, rather than pushing harder
-            inside it.
+            The goals that feel impossible ask you to change how you see,
+            what you believe, and who you become. That kind of change has
+            been studied for half a century. The AI is built directly on
+            that research.
           </p>
-          <div className="steps">
-            <div className="step reveal">
-              <div className="s-no">01</div>
-              <div>
-                <h4>Set a goal that truly feels impossible</h4>
-                <p>
-                  You should doubt it&apos;s achievable. It should feel
-                  scary. It will demand profound change in you and your
-                  environment.
-                </p>
-              </div>
-            </div>
-            <div className="step reveal">
-              <div className="s-no">02</div>
-              <div>
-                <h4>Define what must become true</h4>
-                <p>
-                  What has to transform across your mindset, habits, systems,
-                  and team or culture?
-                </p>
-              </div>
-            </div>
-            <div className="step reveal">
-              <div className="s-no">03</div>
-              <div>
-                <h4>Run bold experiments</h4>
-                <p>
-                  Run experiments that test the assumptions in your way and
-                  build your capacity for change. Each one reveals the next
-                  step.
-                </p>
-              </div>
-            </div>
+          <p className="lineage-names reveal">
+            Ronald Heifetz · Peter Diamandis · Otto Scharmer · Paul
+            Watzlawick · Robert Kegan &amp; Lisa Lahey · Dave Snowden ·
+            Jennifer Garvey Berger · Richard Strozzi-Heckler · Carol Dweck
+          </p>
+          <div className="found-cta reveal">
+            <Link className="text-link" href="/research">
+              Read the full lineage →
+            </Link>
           </div>
         </div>
       </section>
@@ -363,68 +319,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOUNDATIONS / THE RESEARCH (short framing) */}
-      <section id="foundations" aria-labelledby="found-h">
-        <div className="wrap">
-          <span className="eyebrow reveal">A method with a lineage</span>
-          <h2 className="h-section reveal" id="found-h">
-            The <em>research</em>{" "}we&apos;re building on.
-          </h2>
-          <p className="lede reveal">
-            The goals that feel impossible ask you to change how you see,
-            what you believe, and who you become. That kind of change has
-            been studied for half a century. The AI is built directly on
-            that research.
-          </p>
-          <p className="lineage-names reveal">
-            Ronald Heifetz · Peter Diamandis · Otto Scharmer · Paul
-            Watzlawick · Robert Kegan &amp; Lisa Lahey · Dave Snowden ·
-            Jennifer Garvey Berger · Richard Strozzi-Heckler · Carol Dweck
-          </p>
-          <div className="found-cta reveal">
-            <Link className="text-link" href="/research">
-              Read the full lineage →
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* WORK WITH US */}
-      <section id="build" aria-labelledby="build-h">
-        <div className="wrap">
-          <span className="eyebrow reveal">Work with us</span>
-          <h2 className="h-section reveal" id="build-h">
-            Build the future of <em>human development</em> with us.
-          </h2>
-          <ul className="fork-list reveal">
-            <li>
-              <b>Read and respond.</b> Dig into the research and the
-              method, and tell us where we are wrong.
-            </li>
-            <li>
-              <b>Run a local hub.</b> Gather a few ambitious people near
-              you and work the method together.
-            </li>
-            <li>
-              <b>Contribute.</b> Coaches, researchers, engineers, and
-              writers all have something to add to this.
-            </li>
-            <li>
-              <b>Build what it becomes.</b> Partner with us on where this
-              goes next.
-            </li>
-          </ul>
-          <div className="fork-cta reveal">
-            <Link className="btn btn-ghost" href="/writing">
-              Read our writing →
-            </Link>
-            <a className="btn btn-ghost" href="mailto:hello@impossiblegoals.club">
-              Get in touch →
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* CLOSING */}
       <section id="invitation" aria-labelledby="inv-h">
         <div className="wrap invite">
@@ -437,9 +331,6 @@ export default function Home() {
           <div className="hero-cta reveal" style={{ justifyContent: "center", marginTop: "2.4rem" }}>
             <a className="btn btn-primary" href="#start">
               Try the AI on your own goal →
-            </a>
-            <a className="btn btn-ghost" href="#build">
-              Build it with us →
             </a>
             <p className="beta-note">The app is in early beta, and we&rsquo;d love your feedback.</p>
           </div>
@@ -460,7 +351,6 @@ export default function Home() {
             <div className="foot-links">
               <a href="#method">The Method</a>
               <Link href="/writing">Writing</Link>
-              <a href="#build">Build With Us</a>
               <a href="mailto:hello@impossiblegoals.club">
                 hello@impossiblegoals.club
               </a>
