@@ -17,7 +17,7 @@ const WAITLIST_URL = `${APP_ORIGIN}/api/waitlist`;
 
 type LiveCard = {
   kind: "live";
-  id: "general" | "sales";
+  id: "general" | "sales" | "founder";
   label: string;
   tagline: string;
 };
@@ -38,7 +38,7 @@ const CARDS: Card[] = [
     label: "Enterprise Leadership",
     tagline: "Join the Waitlist",
   },
-  { kind: "soon", interest: "founder", label: "Founder", tagline: "Join the Waitlist" },
+  { kind: "live", id: "founder", label: "Founder", tagline: "For impossible startups" },
 ];
 
 function LiveCardView({ card }: { card: LiveCard }) {
