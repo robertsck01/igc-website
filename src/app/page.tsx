@@ -1,6 +1,7 @@
 import Link from "next/link";
 import SiteEffects from "./components/SiteEffects";
 import PersonaCTA from "./components/PersonaCTA";
+import MobileNav from "./components/MobileNav";
 
 const APP_URL = "https://app.impossiblegoals.club/";
 
@@ -21,6 +22,7 @@ export default function Home() {
           <a className="link" href={`${APP_URL}auth/login`}>Log in</a>
           <a className="nav-cta" href="#start">Try it free →</a>
         </nav>
+        <MobileNav loginHref={`${APP_URL}auth/login`} />
       </header>
 
       {/* HERO */}
